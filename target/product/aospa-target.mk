@@ -38,9 +38,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     vendor/aospa/prebuilts/misc/Effect_Tick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Effect_Tick.ogg
 
-# Boot Animation
-$(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
-
 # Camera
 ifeq ($(CAMERA_PACKAGE_NAME),)
 PRODUCT_PACKAGES += \
