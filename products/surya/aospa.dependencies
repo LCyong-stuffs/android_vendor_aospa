@@ -49,6 +49,13 @@
     },
     {
         "remote":       "github",
+        "repository":   "rd-stuffs/prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "19",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
         "repository":   "rd-stuffs/packages_apps_XiaomiParts",
         "target_path":  "packages/apps/XiaomiParts",
         "revision":     "uvite"
