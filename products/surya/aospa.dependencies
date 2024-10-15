@@ -62,7 +62,7 @@
     },
     {
         "remote":       "gitlab",
-        "repository":   "Lostark13/miuicamera",
+        "repository":   "rdxzv/miuicamera",
         "target_path":  "vendor/miuicamera",
         "revision":     "12.1",
         "clone-depth":  "1"
